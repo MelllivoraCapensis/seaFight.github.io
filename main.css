@@ -1,0 +1,30 @@
+#game_field{
+	width: 800px;
+	margin: 20px auto;
+	order: 2px solid black;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+}
+#game_info{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 500px;
+	height: 50px;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+#game_field>table{
+	border: 2px solid black;
+}
+td{
+	min-width: 20px;
+	height: 20px;
+	border: 1px solid black;
+}
+#game_field>div{
+	height: 600px;
+	width:200px;
+	border: 2px solid black;
+}
